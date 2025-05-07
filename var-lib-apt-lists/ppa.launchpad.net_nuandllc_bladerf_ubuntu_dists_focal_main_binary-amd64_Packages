@@ -1,0 +1,213 @@
+Package: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 399
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Replaces: bladerf-host
+Provides: bladerf-host
+Depends: libbladerf2 (= 2022.08), libc6 (>= 2.17), libtecla1, libbladerf-udev
+Conflicts: bladerf-host
+Filename: pool/main/b/bladerf/bladerf_2022.08_amd64.deb
+Size: 154900
+MD5sum: 1bb04fcd78a7e5c4b0cb25fdd18d9065
+SHA1: a206a2f1c6c777e2aa2f4140595fa57f976ccb49
+SHA256: afd17f9442a13d55d5fb52b5eca2da293474ea40eb6b80e038f5e06612cd2838
+Description: Nuand bladeRF software-defined radio device (tools)
+Description-md5: ce36051119c0af973a2ac8599bbe5c6f
+Multi-Arch: foreign
+
+Package: bladerf-firmware-fx3
+Source: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 30
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf
+Suggests: bladerf-fpga
+Provides: bladerf-firmware
+Depends: wget
+Filename: pool/main/b/bladerf/bladerf-firmware-fx3_2022.08_amd64.deb
+Size: 9888
+MD5sum: a1edef908398b3b8ef5e8e05319d4114
+SHA1: 886a40e7293f1ca595d55595a0137193ae87c8fa
+SHA256: fb0ddb25cf46cab92c192f185ccfdca2027ec0c71b2786f079644be668c5adfb
+Description: Nuand bladeRF firmware downloader (FX3)
+Description-md5: 76a3e3224b07f0bd7d34bb82424215e0
+
+Package: bladerf-fpga-hostedx115
+Source: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 30
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf
+Suggests: bladerf-firmware
+Provides: bladerf-fpga
+Depends: wget
+Filename: pool/main/b/bladerf/bladerf-fpga-hostedx115_2022.08_amd64.deb
+Size: 9936
+MD5sum: 490bee912349b47e88e96c74b33e00cd
+SHA1: 00ee16adffba2c8e4bfa8fa914c665e904e65464
+SHA256: 8da302768c268c6151e0fbec6e2f8d7e8660f2526dbaab6d843e47c179b99904
+Description: Nuand bladeRF FPGA bitstream downloader (hostedx115)
+Description-md5: e92f5b075094dd8ab7642a81884a4031
+
+Package: bladerf-fpga-hostedx40
+Source: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 30
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf
+Suggests: bladerf-firmware
+Provides: bladerf-fpga
+Depends: wget
+Filename: pool/main/b/bladerf/bladerf-fpga-hostedx40_2022.08_amd64.deb
+Size: 9940
+MD5sum: 3266efa8dbef646fc356f9a4bcd1e09e
+SHA1: de6eab7811fdb372399ccdb3ac43ddd7f787f529
+SHA256: 4f92d6a38cc22aa707efcb8db608b3186fe9d4ede971b0d3ecb074e625161c70
+Description: Nuand bladeRF FPGA bitstream downloader (hostedx40)
+Description-md5: 54d7711438eab820ef190262612415a6
+
+Package: bladerf-fpga-hostedxa4
+Source: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 30
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf
+Suggests: bladerf-firmware
+Provides: bladerf-fpga
+Depends: wget
+Filename: pool/main/b/bladerf/bladerf-fpga-hostedxa4_2022.08_amd64.deb
+Size: 9940
+MD5sum: 6e2f44d9505cdaea36427759894340f0
+SHA1: 12afc4dab4ffac03ea1cb6a85c16112c36f69452
+SHA256: ebbf9c04d2c2c31f5d74f80732eb6c085b1b5506f2ee4d9be4853e305fd1bbd4
+Description: Nuand bladeRF FPGA bitstream downloader (hostedxA4)
+Description-md5: ec21bfb65eaeefa0f26cf269e83d190d
+
+Package: bladerf-fpga-hostedxa5
+Source: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 30
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf
+Suggests: bladerf-firmware
+Provides: bladerf-fpga
+Depends: wget
+Filename: pool/main/b/bladerf/bladerf-fpga-hostedxa5_2022.08_amd64.deb
+Size: 9936
+MD5sum: 9081cb27097f0c72e40e1413d7055af5
+SHA1: df1becd52dcb6501b5752e4aa479ec6a6c1152da
+SHA256: 3ed7a8d25a5ce0bf49dd157337997938c7c1265317450c2cfa5030178db50196
+Description: Nuand bladeRF FPGA bitstream downloader (hostedxA5)
+Description-md5: 1336e7e11b7e392a940b1ab8b9b69f5e
+
+Package: bladerf-fpga-hostedxa9
+Source: bladerf
+Priority: optional
+Section: comm
+Installed-Size: 30
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf
+Suggests: bladerf-firmware
+Provides: bladerf-fpga
+Depends: wget
+Filename: pool/main/b/bladerf/bladerf-fpga-hostedxa9_2022.08_amd64.deb
+Size: 9936
+MD5sum: 820934d97ac3cc460698b9a1b8c0e760
+SHA1: ca9f3a6b096bfddc9cc0876cd4c9aeac5ffa5d99
+SHA256: a2ad0622df635bcde70761cbdfef343a33629ca32d1040bd7acd9ca10f36d0f7
+Description: Nuand bladeRF FPGA bitstream downloader (hostedxA9)
+Description-md5: 66ad96b1c9fe8c1c10ccbfb23c9ad59e
+
+Package: libbladerf-dev
+Source: bladerf
+Priority: optional
+Section: libdevel
+Installed-Size: 295
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Depends: libbladerf2 (= 2022.08), libc6-dev | libc-dev
+Filename: pool/main/b/bladerf/libbladerf-dev_2022.08_amd64.deb
+Size: 85896
+MD5sum: bfe2b1a7cc31c013b8bdad1f4928b00b
+SHA1: f586a2b255006a9fabb2bcbb461c3453dc4f0fd5
+SHA256: 082165672c4a0bae01bc99e27587098f6b9d55fac2b016b2b782efbecb56b9fb
+Description: Nuand bladeRF software-defined radio device (header files)
+Description-md5: 09355b6d85bd62890d93471d61ff03c8
+Multi-Arch: same
+
+Package: libbladerf-doc
+Source: bladerf
+Priority: optional
+Section: doc
+Installed-Size: 3527
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Filename: pool/main/b/bladerf/libbladerf-doc_2022.08_amd64.deb
+Size: 303500
+MD5sum: 551812c8e95fffd322b63ef085f5f028
+SHA1: 5f79b253961f4277f794144fdbc1b8ffb0cf01a7
+SHA256: 44fe39f49d42591a235cfcc0355359a65a9ce457a7fbabad05654526a5e93982
+Description: Nuand bladeRF software-defined radio device (API documentation)
+Description-md5: 20f7c7795d9bbed7b6e5475278229785
+
+Package: libbladerf-udev
+Source: bladerf
+Priority: optional
+Section: libs
+Installed-Size: 88
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Depends: udev
+Conflicts: libbladerf0
+Filename: pool/main/b/bladerf/libbladerf-udev_2022.08_amd64.deb
+Size: 48824
+MD5sum: af4dffdb20e0cb6a9abcc8b11ec14392
+SHA1: 5586384f4982bf88b2a15a30fe31abbe8d4f643e
+SHA256: 508476bdb1d0e9186736e058b93c19d300d2ebac8d8ea71c2098d1821f3fe1b0
+Description: Nuand bladeRF software-defined radio device (header files)
+Description-md5: d6782a1fe3ee79921a843f31f59e6ad9
+Multi-Arch: same
+
+Package: libbladerf2
+Source: bladerf
+Priority: optional
+Section: libs
+Installed-Size: 653
+Maintainer: Nuand LLC <bladeRF@nuand.com>
+Architecture: amd64
+Version: 2022.08
+Recommends: bladerf-fpga, libbladerf-udev
+Suggests: bladerf-firmware
+Depends: libc6 (>= 2.17), libusb-1.0-0 (>= 2:1.0.9)
+Filename: pool/main/b/bladerf/libbladerf2_2022.08_amd64.deb
+Size: 210456
+MD5sum: 4ba5a03485672e611fbb0c7ed23aff02
+SHA1: 64be02f7bb8a5b7bf03573f81f8249fa79dfb9cf
+SHA256: ad75a3c10d023682456201d7693dcc01d9f5ba8566d7e8f3dfd1d180e191529e
+Description: Nuand bladeRF software-defined radio device
+Description-md5: 58c8a74e835c1961ec440cd71432a7cc
+Multi-Arch: same
+
